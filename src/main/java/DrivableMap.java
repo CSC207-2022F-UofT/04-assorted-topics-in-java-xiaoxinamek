@@ -59,7 +59,7 @@ class DrivableMap {
      *       drivable_map.
      */
     public ArrayList<Tradable> getTradable() {
-        ArrayList<Tradable> T_dri = new ArrayList<Tradable>();
+        ArrayList<Tradable> T_dri = new ArrayList<>();
         for (Drivable each : drivable_map.values()) {
             if (each instanceof Tradable) {
                 T_dri.add((Tradable) each);
